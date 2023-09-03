@@ -5,8 +5,8 @@ export const emailSending = async (email: string, res: Response) => {
     port: 465,
     host: 'smtp.gmail.com',
     auth: {
-      user: 'abdulazizkenjaoxunov@gmail.com',
-      pass: 'voibutzlaxatjoyi',
+      user: "komilovm831@gmail.com",
+      pass: "cayogjengyfkeyfl",
     },
     secure: true,
   });
