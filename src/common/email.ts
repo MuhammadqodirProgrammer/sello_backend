@@ -14,7 +14,7 @@ export const emailSending = async (email: string, res: Response) => {
   res.cookie('code', code, { maxAge: 120 * 100 * 60 });
   res.cookie('email', email, { maxAge: 120 * 100 * 60 });
   const mailData = {
-    from: 'abdulazizkenjaoxunov@gmail.com',
+    from: 'komilovm831@gmail.com',
     to: `${email}`,
     subject: 'Tasdiqlash kodi',
     text: 'That was easy!',
